@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:alfneils="http://schemas.android.com/apk/res/in.alfneils" >
+	
+	<PreferenceCategory android:title="System">
+
+		<in.alfneils.view.IconPreference
+			android:title="Preference 1"
+			android:summary="Preference 1 Summary"
+			alfneils:icon="@drawable/alfahmi__ic_status_bar_icon">
+
+			<intent
+				android:targetPackage=""
+				android:action="android.intent.action.MAIN"
+				android:targetClass="" />
+
+		</in.alfneils.view.IconPreference>
+
+	</PreferenceCategory>
+
+	<PreferenceCategory android:title="Interface">
+
+		<PreferenceScreen
+			android:title="Preference 2"
+			android:summary="Preference 2 Summary">
+
+			<intent
+				android:targetPackage=""
+				android:action="android.intent.action.MAIN"
+				android:targetClass="" />
+
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:title="Preference 3"
+			android:summary="Preference 3 Summary">
+
+			<intent
+				android:targetPackage=""
+				android:action="android.intent.action.MAIN"
+				android:targetClass="" />
+
+		</PreferenceScreen>
+
+		<PreferenceScreen
+			android:title="Preference 4"
+			android:summary="Preference 4 Summary">
+
+			<intent
+				android:targetPackage=""
+				android:action="android.intent.action.MAIN"
+				android:targetClass="" />
+
+		</PreferenceScreen>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

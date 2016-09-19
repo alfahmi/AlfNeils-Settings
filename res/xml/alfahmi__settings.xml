@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+	android:background="@android:color/white">
+
+	<ListPreference
+		android:title="Choose Style"
+		android:summary="Select the app style"
+		android:key="styleApp"
+		android:defaultValue="viewpager"
+		android:entries="@array/style"
+		android:entryValues="@array/style_value" 
+		android:layout="@layout/alfahmi__preference"	/>
+	
+	
+	<ListPreference
+		android:title="Choose Color"
+		android:summary="Select the app background"
+		android:key="AppTheme"
+		android:defaultValue="dark"
+		android:entries="@array/theme"
+		android:entryValues="@array/theme_values"
+		android:layout="@layout/alfahmi__preference"	/>
+	
+<ListPreference
+		android:title="Fab Button"
+		android:summary="Fab settigns button"
+		android:key="fabSettings"
+		android:defaultValue="hidden"
+		android:entries="@array/fab"
+		android:entryValues="@array/fab_values"
+		android:layout="@layout/alfahmi__preference"	/>
+	
+</PreferenceScreen>

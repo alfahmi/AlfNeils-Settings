@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+	<string name="app_name">AlfandrOid</string>
+
+	<!-- User interface: Status bar tweaks -->
+	<string name="ui_status_bar_background_title">Set custom color</string>
+    <string name="ui_status_bar_am_pm_title">AM/PM style</string>
+    <string name="ui_status_bar_am_pm_summary">Display style of AM/PM next to clock</string>
+    <string name="ui_status_bar_clock_title">Show clock</string>
+    <string name="ui_status_bar_battery_title">Battery Icon</string>
+    <string name="ui_status_bar_cm_signal_title">Signal Icon</string>
+    <string name="ui_status_bar_headset_title">Show headset icon</string>
+	<string name="ui_status_bar_show_or_hide">Show/Hide</string>
+
+	
+	<!-- Floating -->
+	<string name="floating_pref_cat_padding">Paddings (dip)</string>
+    <string name="floating_pref_title_left">Left Padding</string>
+	<string name="floating_pref_title_top">Top Padding</string>
+	<string name="floating_pref_title_right">Rigt Padding</string>
+	<string name="floating_pref_title_bot">Bottom Padding</string>
+	<string name="floating_def_left">30</string>
+	<string name="floating_def_top">15</string>
+	<string name="floating_def_right">15</string>
+	<string name="floating_def_bottom">20</string>
+	
+	<!-- User interface: Tablet tweaks -->
+    <string name="tablet_tweaks_summary_head">Settings most useful for tablet devices collected in one place. Also working for phones</string>
+    <string name="tablet_tweaks_sb_bottom_title">Bottom status bar</string>
+    <string name="tablet_tweaks_sb_bottom_summary">Show status bar on bottom</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_title">Dead zone</string>
+    <string name="tablet_tweaks_status_bar_dead_zone_summary">Add a dead zone of half screen width to the middle of the status bar</string>
+    <string name="tablet_tweaks_soft_buttons_left_title">Soft-buttons left</string>
+    <string name="tablet_tweaks_soft_buttons_left_summary">Put soft-buttons on left side of status bar</string>
+    <string name="tablet_tweaks_soft_button_list_title">Choose soft-buttons</string>
+
+	<!-- @string/profile_title -->
+	<string name="profile_change_pic">Change profile picture</string>
+    <string name="profile_set_pic">SET PROFILE PICTURE</string>
+    <string name="profile_set_name">CHANGE PROFILE NAME</string>
+
+	<!-- Expanded -->
+	<string name="pulldown_bg">Pulldown Background</string>
+	<string name="expanded_setting_color_title">Set background color</string>
+	<string name="ui_status_bar_compact_clear_button_title">Compact button</string>
+    <string name="ui_status_bar_carrier_label_title">Carrier label type</string>
+    <string name="ui_status_bar_carrier_label_summary">Change what is used as carrier label</string>
+    <string name="ui_status_bar_carrier_label_use_default">Default</string>
+    <string name="ui_status_bar_carrier_label_use_custom">Custom text</string>
+    <string name="ui_status_bar_carrier_label_custom_title">Custom carrier label</string>
+
+	<!-- Soft buttons -->
+    <string name="tablet_soft_buttons_home_title">Home</string>
+    <string name="tablet_soft_buttons_menu_title">Menu</string>
+    <string name="tablet_soft_buttons_back_title">Back</string>
+    <string name="tablet_soft_buttons_search_title">Search</string>
+    <string name="tablet_soft_buttons_quick_na_title">Quick notifications</string>
+	<string name="unknown">Bajakan</string>
+	
+	<string name="alert_title">Credits and Thanks</string>
+	<string name="alert_message">Test\ntab</string>
+	
+	
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/floating_pref_cat_padding" >
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_p_left"
+            android:title="@string/floating_pref_title_left"
+			android:layout="@layout/alfahmi__preference"	/>
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_p_top"
+            android:title="@string/floating_pref_title_top"
+			android:layout="@layout/alfahmi__preference"	/>
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_p_right"
+            android:title="@string/floating_pref_title_right" 
+			android:layout="@layout/alfahmi__preference"	/>
+        <EditTextPreference
+            android:inputType="number"
+            android:key="pref_key_p_bottom"
+            android:title="@string/floating_pref_title_bot"
+			android:layout="@layout/alfahmi__preference"	/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

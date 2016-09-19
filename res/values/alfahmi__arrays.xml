@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     ____   __   ________   __  _______   __
+    / _  | / /  / __/ _  | / /_/ /     | / /
+   / ___ |/ /__/ _// __  |/ __  / /\/| |/ /
+  /_/  |_/____/_/ /_/  |_/_/ /_/_/   |_/_/
+
+ -->
+
+<resources>
+	
+	<string-array name="entries_status_bar_am_pm">
+        <item>Normal</item>
+        <item>Small</item>
+        <item>None (Default)</item>
+    </string-array>
+
+    <string-array name="values_status_bar_am_pm" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+	
+	<string-array name="entries_status_bar_battery">
+        <item>Show</item>
+        <item>Hide</item>
+    </string-array>
+
+    <string-array name="values_status_bar_battery" translatable="false">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_carrier_label" translatable="false">
+	<item>@string/ui_status_bar_carrier_label_use_default</item>
+	<item>@string/ui_status_bar_carrier_label_use_custom</item>
+    </string-array>
+
+    <string-array name="values_status_bar_carrier_label" translatable="false">
+	<item>0</item>
+	<item>3</item>
+    </string-array>
+
+     <string-array name="entries_status_bar_signal" translatable="false">
+        <item>Show</item>
+        <item>Hide</item>
+     </string-array>
+
+     <string-array name="values_status_bar_signal" translatable="false">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+	
+	<string-array name="theme">
+		<item>Light</item>
+		<item>Dark</item>
+	</string-array>
+	<string-array name="theme_values">
+		<item>light</item>
+		<item>dark</item>
+	</string-array>     
+	<string-array name="style">
+		<item>Normal</item>
+		<item>View Pager</item>
+	</string-array>
+	<string-array name="style_value">
+		<item>normal</item>
+		<item>viewpager</item>
+	</string-array>     
+	<string-array name="ui_layout">
+		<item>Normal Bae</item>
+		<item>HS Design</item>
+		<item>Greper</item>
+		<item>Flyme</item>
+	</string-array>
+	<string-array name="ui_layout_values">
+		<item>normal</item>
+		<item>hsdesign</item>
+		<item>greper</item>
+		<item>flyme</item>
+	</string-array>
+	<string-array name="fab">
+		<item>Show</item>
+		<item>Hide</item>
+	</string-array>
+	<string-array name="fab_values">
+		<item>showed</item>
+		<item>hidden</item>
+	</string-array>
+	<string-array  name="stat_bg">
+		<item>Gradient Style</item>
+		<item>Semi Transparent</item>
+		<item>Full Transparent</item> 
+		<item>Custom (Solid)</item>
+	</string-array>
+	<string-array name="stat_bg_values">
+		<item>Gradient</item>
+		<item>Semi</item>
+		<item>Full</item> 
+		<item>Custom</item>
+	</string-array>
+</resources>

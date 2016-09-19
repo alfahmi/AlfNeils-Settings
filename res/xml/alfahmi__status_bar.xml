@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:switchpref="http://schemas.android.com/apk/res-auto">
+	
+	<PreferenceCategory android:title="Statusbar Layout" />
+	<ListPreference
+		android:title="Choose Layout"
+        android:summary="Select the statusbar layout"
+		android:key="type"
+		android:defaultValue="normal"
+		android:entries="@array/ui_layout"
+		android:entryValues="@array/ui_layout_values"
+		android:layout="@layout/alfahmi__preference"	/>
+	<PreferenceCategory android:title="Background Color" />
+	<ListPreference
+		android:title="Set Background"
+        android:summary=" "
+		android:key="stat_bg"
+		android:defaultValue="Gradient"
+		android:entries="@array/stat_bg"
+		android:entryValues="@array/stat_bg_values"
+		android:layout="@layout/alfahmi__preference"	/>
+	
+		<net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:key="warnaStatusbar"
+			android:title="@string/ui_status_bar_background_title"
+			android:summary="color"
+			android:defaultValue="@integer/COLOR_BLACK"
+			alphaSlider="true"
+			android:layout="@layout/alfahmi__preference" />
+	<PreferenceCategory android:title="Clock" />
+		<CheckBoxPreference android:key="pref_status_bar_clock"
+			android:title="@string/ui_status_bar_clock_title"
+			android:summary="@string/ui_status_bar_show_or_hide"
+			android:defaultValue="true"	/>
+		<ListPreference android:key="pref_status_bar_am_pm"
+			android:dialogTitle="@string/ui_status_bar_am_pm_title"
+			android:title="@string/ui_status_bar_am_pm_title"
+			android:summary="@string/ui_status_bar_am_pm_summary"
+			android:entries="@array/entries_status_bar_am_pm"
+			android:entryValues="@array/values_status_bar_am_pm"
+			android:layout="@layout/alfahmi__preference"	/>
+	<PreferenceCategory android:title="Status Icon" />
+		<ListPreference android:key="pref_status_bar_battery"
+			android:dialogTitle="@string/ui_status_bar_battery_title"
+			android:title="@string/ui_status_bar_battery_title"
+			android:summary="@string/ui_status_bar_show_or_hide"
+			android:entries="@array/entries_status_bar_battery"
+			android:entryValues="@array/values_status_bar_battery"
+			android:layout="@layout/alfahmi__preference"	/>
+		<ListPreference android:key="pref_status_bar_cm_signal"
+			android:dialogTitle="@string/ui_status_bar_cm_signal_title"
+			android:title="@string/ui_status_bar_cm_signal_title"
+			android:summary="@string/ui_status_bar_show_or_hide"
+			android:entries="@array/entries_status_bar_signal"
+			android:entryValues="@array/values_status_bar_signal"
+			android:layout="@layout/alfahmi__preference"	/>
+		<CheckBoxPreference android:key="pref_status_bar_headset"
+			android:title="@string/ui_status_bar_headset_title"
+			android:defaultValue="true" />
+</PreferenceScreen>

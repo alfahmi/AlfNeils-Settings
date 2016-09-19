@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="About">
+
+	<Preference 
+		android:layout="@layout/alfahmi__banner" />
+
+	<Preference 
+		android:key="rom_name"
+		style="?android:preferenceInformationStyle"
+		android:title="Rom Name"
+		android:summary="It's not neXaf Rom!!"
+		android:layout="@layout/alfahmi__preference_information" />
+	
+	<Preference android:key="rom_version"
+		style="?android:preferenceInformationStyle"
+		android:title="Rom Version"
+		android:summary="It's not neXaf Rom!!"
+		android:layout="@layout/alfahmi__preference_information" />
+
+</PreferenceScreen>
+

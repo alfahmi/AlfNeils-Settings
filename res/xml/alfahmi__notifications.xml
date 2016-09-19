@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory 
+		android:key="ctgr"
+		android:title="@string/pulldown_bg" />
+	<net.margaritov.preference.colorpicker.ColorPickerPreference
+		android:key="warnaTracking"
+		android:title="@string/expanded_setting_color_title"
+		android:summary="color"
+		android:layout="@layout/alfahmi__preference"
+		android:defaultValue="@integer/COLOR_NOTIFICATIONS"
+		alphaSlider="true" /> 
+	<PreferenceCategory
+		android:key="ctgr"
+		android:title="Carrier" />
+		<ListPreference android:key="pref_status_bar_carrier_label"
+			android:dialogTitle="@string/ui_status_bar_carrier_label_title"
+			android:title="@string/ui_status_bar_carrier_label_title"
+			android:summary="@string/ui_status_bar_carrier_label_summary"
+			android:entries="@array/entries_status_bar_carrier_label"
+			android:entryValues="@array/values_status_bar_carrier_label"
+			android:layout="@layout/alfahmi__preference"	/>
+		<EditTextPreference android:key="pref_status_bar_carrier_label_custom"
+			android:dialogTitle="@string/ui_status_bar_carrier_label_custom_title"
+			android:title="@string/ui_status_bar_carrier_label_custom_title"
+			android:defaultValue="Alf02"
+			android:layout="@layout/alfahmi__preference"	/>
+	<PreferenceCategory 
+		android:key="ctgr"
+		android:title="Clear Button" />
+		<CheckBoxPreference android:key="pref_status_bar_compact_carrier"
+			android:title="@string/ui_status_bar_compact_clear_button_title"
+			android:defaultValue="falses" />
+</PreferenceScreen>

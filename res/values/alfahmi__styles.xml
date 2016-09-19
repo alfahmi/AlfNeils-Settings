@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme_Alfahmi_Dark" parent="Theme.Sherlock">
+		<item name="actionBarStyle">@style/Alfahmi.Dark.Theme.ActionBar</item>
+		<item name="android:checkboxStyle">@style/Widget.CompoundButton.CheckBox.Holo.Dark</item>
+		<item name="android:scrollbars">none</item> 
+		<item name="android:editTextStyle">@style/EditText</item>
+		<item name="android:divider">@color/transparent</item>
+		<item name="android:listSeparatorTextViewStyle">@style/seperator_dark</item>
+		<item name="android:listViewStyle">@style/Widget.ListView.Holo</item>
+		<item name="android:checkBoxPreferenceStyle">@style/Preference.CheckBoxPreference</item>
+		<item name="android:windowBackground">@color/window_background_dark</item>
+	</style>
+	<style name="Theme_Alfahmi_Light" parent="Theme.Sherlock.Light.DarkActionBar">
+		<item name="windowContentOverlay">@null</item>
+		<item name="actionBarStyle">@style/Alfahmi.Light.Theme.ActionBar</item>
+		<item name="android:checkboxStyle">@style/Widget.CompoundButton.CheckBox.Holo.Dark</item>
+		<item name="android:scrollbars">none</item> 
+		<item name="android:editTextStyle">@style/EditText</item>
+		<item name="android:divider">@color/transparent</item>
+		<item name="android:listSeparatorTextViewStyle">@style/seperator_light</item>
+		<item name="android:listViewStyle">@style/Widget.ListView.Holo</item>
+		<item name="android:checkBoxPreferenceStyle">@style/Preference.CheckBoxPreference</item>
+		<item name="android:windowBackground">@color/window_background_light</item>
+	</style>
+	<style name="Alfahmi.Dark.Theme.ActionBar" parent="Widget.Sherlock.ActionBar">
+		<item name="background">@color/action_bar_dark</item>
+	</style>
+	<style name="Alfahmi.Light.Theme.ActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+		<item name="background">@color/action_bar_blue</item>
+	</style>
+	<style name="EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="seperator_dark">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_separator_dark</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">5.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30.0dip</item>
+    </style>   
+
+	<style name="seperator_light">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_separator_ligh</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/separator_light_background</item>
+        <item name="android:paddingLeft">5.0sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30.0dip</item>
+    </style> 
+
+	<style name="Widget.CompoundButton.CheckBox.Holo.Dark" parent="@*android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/switch_holo_dark</item>
+    </style>
+    <style name="Alfahmi.Title" parent="">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/preference_title_light</item>
+    </style>
+    <style name="Alfahmi.Summary" parent="">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/preference_summary_light</item>
+    </style>
+	<style name="Alf.Preference" parent="" />
+	<style name="Preference" parent="@style/Alf.Preference">
+        <item name="android:layout">@layout/alfahmi__preference</item>
+    </style>
+    <style name="Preference.Information" parent="@style/Preference">
+        <item name="android:enabled">false</item>
+        <item name="android:layout">@layout/alfahmi__preference_information</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Category" parent="@style/Preference">
+        <item name="android:layout">@layout/alfahmi__preference_category</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.CheckBoxPreference" parent="@style/Preference">
+        <item name="android:widgetLayout">@layout/alfahmi__preference_widget_checkbox</item>
+    </style>
+    <style name="Preference.PreferenceScreen" parent="@style/Preference" />
+	<style name="Widget.ListView.Holo" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@android:color/transparent</item> 
+        <item name="android:listSelector">@drawable/list_selector_holo_dark</item> 
+        <item name="android:scrollbars">none</item>              
+    </style>
+</resources>
